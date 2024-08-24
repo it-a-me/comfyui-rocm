@@ -1,5 +1,7 @@
 name: push_container
 on:
+  push:
+    branches: ["master"]
   workflow_dispatch:
 jobs:
   docker:
